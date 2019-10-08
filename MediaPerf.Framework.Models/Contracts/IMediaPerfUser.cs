@@ -10,15 +10,15 @@ namespace MediaPerf.Framework.Models.Contracts
     {
         //IList<IMediaPerfEnvironment> Environments { get; set; }
 
-        string Login { get; set; }
+        //string Login { get; set; }
 
         //IList<IUserParameter> Parameters { get; set; }
 
-        string Password { get; set; }
+        //string Password { get; set; }
 
         //IList<ISqiProfile> Profiles { get; set; }
 
-        string WindowsAccount { get; set; }
+        //string WindowsAccount { get; set; }
     }
 
     public interface IPerson //: IEntity

@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contracts\IApplicationModelFactory.cs" />
     <Compile Include="Contracts\IMediaPerfUser.cs" />
+    <Compile Include="Implementations\ApplicationModelFactory.cs" />
     <Compile Include="Implementations\MediaPerfUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

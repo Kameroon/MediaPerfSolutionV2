@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace MediaPerf.Framework.Models.Implementations
 {
-    public class MediaPerfUser : IPerson
+    public class MediaPerfUser : IMediaPerfUser, IPerson
     {
         #region Properties
         public string Email { get; set; }
