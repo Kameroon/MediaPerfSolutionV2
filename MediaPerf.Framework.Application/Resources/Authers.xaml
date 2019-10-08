@@ -1,0 +1,24 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!--  Taille de police de caractère  -->
+    <sys:Double x:Key="SmallFontSizeDouble">18</sys:Double>
+    <sys:Double x:Key="MediumFontSizeDouble">20</sys:Double>
+    <sys:Double x:Key="BigFontSizeDouble">28</sys:Double>
+    <sys:Double x:Key="BiggerFontSizeDouble">38</sys:Double>
+
+    <!--  Polcies de caractère  -->
+    <FontFamily x:Key="PrimaryFontFamilly">Calibri</FontFamily>
+
+    <!--  Tailles de grille  -->
+    <GridLength x:Key="LittleMarginGridLength">5</GridLength>
+    <GridLength x:Key="MediumMarginGridLength">10</GridLength>
+    <GridLength x:Key="BigMarginGridLength">20</GridLength>
+
+    <!--  Tailles de marge  -->
+    <Thickness x:Key="LittleMargin">5</Thickness>
+    <Thickness x:Key="MediumMargin">10</Thickness>
+    <Thickness x:Key="BigMargin">20</Thickness>
+
+</ResourceDictionary>
